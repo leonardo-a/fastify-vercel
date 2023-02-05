@@ -1,0 +1,31 @@
+{
+  "name": "fastify-vercel",
+  "version": "1.0.0",
+  "description": "Basic template to deploy a project using Fastify to Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts",
+    "build": "tsc",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo-a/fastify-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardo-a/fastify-vercel/issues"
+  },
+  "homepage": "https://github.com/leonardo-a/fastify-vercel#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^4.12.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.9.0",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5"
+  }
+}
