@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "es2020",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "public",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
