@@ -11,7 +11,7 @@ You can click here to deploy your own
 
 ## 💻 Local Development
 
-For developmento, you can still run the project locally by running the commands: 
+For development, you can still run the project locally by running the commands: 
 
 ```bash
   npm install
